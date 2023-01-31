@@ -1,4 +1,8 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\NasaAPI"
+  ],
+  "SelectedNode": "\\NasaAPI\\NasaAPI.sln",
   "PreviewInSolutionExplorer": false
 }
