@@ -1,0 +1,12 @@
+E:\GitHub\APINasa\Domain\bin\Debug\net6.0\Domain.deps.json
+E:\GitHub\APINasa\Domain\bin\Debug\net6.0\Domain.dll
+E:\GitHub\APINasa\Domain\bin\Debug\net6.0\Domain.pdb
+E:\GitHub\APINasa\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+E:\GitHub\APINasa\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\APINasa\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+E:\GitHub\APINasa\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+E:\GitHub\APINasa\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+E:\GitHub\APINasa\Domain\obj\Debug\net6.0\Domain.dll
+E:\GitHub\APINasa\Domain\obj\Debug\net6.0\refint\Domain.dll
+E:\GitHub\APINasa\Domain\obj\Debug\net6.0\Domain.pdb
+E:\GitHub\APINasa\Domain\obj\Debug\net6.0\ref\Domain.dll

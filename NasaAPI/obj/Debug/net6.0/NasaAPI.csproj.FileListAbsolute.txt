@@ -25,3 +25,8 @@ E:\GitHub\APINasa\NasaAPI\obj\Debug\net6.0\refint\NasaAPI.dll
 E:\GitHub\APINasa\NasaAPI\obj\Debug\net6.0\NasaAPI.pdb
 E:\GitHub\APINasa\NasaAPI\obj\Debug\net6.0\NasaAPI.genruntimeconfig.cache
 E:\GitHub\APINasa\NasaAPI\obj\Debug\net6.0\ref\NasaAPI.dll
+E:\GitHub\APINasa\NasaAPI\bin\Debug\net6.0\RestSharp.dll
+E:\GitHub\APINasa\NasaAPI\bin\Debug\net6.0\Application.dll
+E:\GitHub\APINasa\NasaAPI\bin\Debug\net6.0\Domain.dll
+E:\GitHub\APINasa\NasaAPI\bin\Debug\net6.0\Application.pdb
+E:\GitHub\APINasa\NasaAPI\bin\Debug\net6.0\Domain.pdb

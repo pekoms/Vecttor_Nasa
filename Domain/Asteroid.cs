@@ -8,7 +8,5 @@
         public string fecha { get; set; }
         public string planeta { get; set; }
 
-
-
     }
 }
