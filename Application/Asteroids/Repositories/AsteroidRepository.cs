@@ -1,5 +1,6 @@
 ﻿using Domain;
 using NasaAPI.Models.Asteroids;
+
 using RestSharp;
 using System.Text.Json;
 
@@ -17,26 +18,31 @@ namespace Application.Asteroids.Repositories
 
             //return await PostAsteroids(days);
 
-            var a = await PostAsteroids(days);
-            return new Asteroid();
+            var asteorid = await PostAsteroids(days);
+            return asteorid;
         }
 
-        private async Task<AsteroidModel> PostAsteroids(int? days)
+        private async Task<Asteroid> PostAsteroids(int? days)
         {
             var date = DateTime.Now.AddDays((double)days);
            
             var client = new RestClient("https://api.nasa.gov/neo/rest/v1");
-            var request = new RestRequest("/feed?start_date=2021-12-09&end_date=2021-12-12&api_key=zdUP8ElJv1cehFM0rsZVSQN7uBVxlDnu4diHlLSb", Method.Get);
+            var request = new RestRequest("/feed?start_date=2021-12-09&end_date=2021-12-09&api_key=zdUP8ElJv1cehFM0rsZVSQN7uBVxlDnu4diHlLSb", Method.Get);
             request.AddHeader("Cookie", "JSESSIONID=4A46C5150C8F8CF0B9730A23E6DE956A; __VCAP_ID__=ebc9879c-020c-4bd5-6d64-8be3");
             RestResponse response = await client.ExecuteAsync(request);
 
-            if (response.Content != null)
-            {
-               var a= JsonSerializer.Deserialize<AsteroidModel>(response.Content);
-            }
-            
+          
+               var asteroidModel= JsonSerializer.Deserialize<AsteroidModel>(response.Content);
 
-            return new  AsteroidModel();
+
+
+
+            return new Asteroid()
+            {
+                nombre = asteroidModel.near_earth_objects.result.FirstOrDefault().name,
+               // velocidad = asteroidModel.near_earth_objects.result.FirstOrDefault().close_approach_data.FirstOrDefault().relative_velocity,
+
+            };
         }
 
     }

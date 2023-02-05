@@ -30,3 +30,4 @@ E:\GitHub\APINasa\NasaAPI\bin\Debug\net6.0\Application.dll
 E:\GitHub\APINasa\NasaAPI\bin\Debug\net6.0\Domain.dll
 E:\GitHub\APINasa\NasaAPI\bin\Debug\net6.0\Application.pdb
 E:\GitHub\APINasa\NasaAPI\bin\Debug\net6.0\Domain.pdb
+E:\GitHub\APINasa\NasaAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
