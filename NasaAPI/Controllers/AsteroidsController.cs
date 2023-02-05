@@ -22,8 +22,15 @@ namespace NasaAPI.Controllers
         public async Task<ActionResult<Asteroid>> GetAsteroids([FromQuery] int? days)
         {
             //TODO: RETURN Asteroid from Nasa API
+            try
+            {
 
-            return await _repository.GetAsteroidAsync(days);
+                return await _repository.GetAsteroidAsync(days);
+            }catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+           
         }
     }
 }

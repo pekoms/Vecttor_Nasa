@@ -97,3 +97,9 @@ E:\GitHub\APINasa\Domain.UnitTest\obj\Debug\net6.0\refint\Domain.UnitTest.dll
 E:\GitHub\APINasa\Domain.UnitTest\obj\Debug\net6.0\Domain.UnitTest.pdb
 E:\GitHub\APINasa\Domain.UnitTest\obj\Debug\net6.0\Domain.UnitTest.genruntimeconfig.cache
 E:\GitHub\APINasa\Domain.UnitTest\obj\Debug\net6.0\ref\Domain.UnitTest.dll
+E:\GitHub\APINasa\Domain.UnitTest\bin\Debug\net6.0\CoverletSourceRootsMapping
+E:\GitHub\APINasa\Domain.UnitTest\bin\Debug\net6.0\RestSharp.dll
+E:\GitHub\APINasa\Domain.UnitTest\bin\Debug\net6.0\Application.dll
+E:\GitHub\APINasa\Domain.UnitTest\bin\Debug\net6.0\Domain.dll
+E:\GitHub\APINasa\Domain.UnitTest\bin\Debug\net6.0\Application.pdb
+E:\GitHub\APINasa\Domain.UnitTest\bin\Debug\net6.0\Domain.pdb

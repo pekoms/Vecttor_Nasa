@@ -5,6 +5,6 @@ namespace Application.Asteroids.Repositories
 {
     public interface IRepository
     {
-        Task<Asteroid> GetAsteroidAsync(int? days);
+       public Task<Asteroid> GetAsteroidAsync(int? days);
     }
 }

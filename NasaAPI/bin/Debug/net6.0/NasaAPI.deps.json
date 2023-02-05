@@ -9,6 +9,7 @@
       "NasaAPI/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "RestSharp": "108.0.3",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
